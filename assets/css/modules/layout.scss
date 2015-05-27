@@ -1,0 +1,412 @@
+.clear-button {
+	position: relative;
+	padding: 12px 14px !important;
+	font: normal 13px/1 'Montserrat', Arial, sans-serif;
+	color: #3f5f7a;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+
+	&:after {
+		content: '>';
+		position: absolute;
+		top: 0; right: 0;
+		display: block;
+		width: 37px;
+		height: 27px;
+		padding: 5px 0 5px 2px;
+		background: #151f29;
+		font-size: 22px;
+		text-align: center;
+	}
+
+	&:hover {
+		color: #fff;
+	}
+}
+
+.search-form {
+	position: relative;
+	width: 100%;
+	margin: 0 0 28px;
+
+	input[type="search"] {
+		width: 100%;
+		padding: 12px 14px 12px 38px !important;
+		font: normal 13px/1 'Montserrat', Arial, sans-serif;
+		letter-spacing: 1px;
+	}
+
+	&:before {
+		position: absolute;
+		top: 9px; left: 14px;
+		content: '';
+		display: block;
+		width: 18px;
+		height: 19px;
+		background: url('assets/img/search.png') no-repeat center;
+	}
+}
+
+.filter-nav {
+	float: left;
+	width: 276px;
+	margin-left: 10px;
+	padding: 20px 0;
+	background: #1a2733;
+	border-left: 1px solid #10181f;
+
+	.logo {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		margin: 0 18px 20px;
+	}
+
+	.filter {
+		padding: 0 18px 20px;
+
+		h1 {
+			padding-bottom: 20px;
+			font: normal 11px/1 'Montserrat', Arial, sans-serif;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+
+		&:last-of-type {
+			padding-bottom: 60px;
+		}
+	}
+
+	.services-filter, 
+	.industry-filter, 
+	.company-size-filter {
+
+		.filter-list {
+			margin-left: -8px;
+			font-size: 0;
+
+			label {
+				display: inline-block;
+				vertical-align: top;
+
+				input[type="radio"] {
+					position: absolute;
+					opacity: 0;
+					filter: alpha(opacity=0);
+				}
+
+				input[type="radio"] + span.icon {
+					display: block;
+					width: 38px;
+					height: 27px;
+					margin: 0 8px 20px;
+					padding-top: 11px;
+					border: 2px solid #3f5f7a;
+					border-radius: 50%;
+					font: normal 14px/1 'Montserrat', Arial, sans-serif;
+					text-align: center;
+					text-decoration: none;
+					color: #3f5f7a;
+					cursor: pointer;
+					transition: color 250ms, border-color 250ms;
+
+					&:hover,
+					&:focus {
+						border: 2px solid #fff;
+						color: #fff;
+						transition: color 500ms, border-color 500ms;
+					}
+				}
+
+				input[type="radio"]:checked + span.icon {
+					border: 2px solid #fff;
+					color: #fff;
+					transition: color 500ms, border-color 500ms;
+				}
+			}
+		}
+	}
+
+	.focus-filter {
+
+		ul,
+		.filter-list {
+			margin-top: -8px;
+			padding-bottom: 10px;
+
+			label {
+				input[type="radio"] {
+					position: absolute;
+					opacity: 0;
+					filter: alpha(opacity=0);
+				}
+
+				input[type="radio"] + span.icon {
+					display: block;
+					position: relative;
+					padding: 24px 0 24px 18px;
+					font: normal 14px/1 'Montserrat', Arial, sans-serif;
+					text-decoration: none; 
+					letter-spacing: 1px;
+					color: #3f5f7a;
+					transition: color 250ms;
+					cursor: pointer;
+
+					span {
+						position: relative;
+						z-index: 1;
+					}
+
+					&:before {
+						content: '';
+						position: absolute;
+						top: 10px; left: 0;
+						z-index: 0;
+						width: 38px;
+						height: 38px;
+						border: 2px solid #3f5f7a;
+						border-radius: 50%;
+						transition: border-color 250ms;
+					}
+
+					&:after {
+						content: '';
+						position: absolute;
+						top: 20px; left: 30px;
+						z-index: 0;
+						width: 24px;
+						height: 24px;
+						background: #1a2733;
+					}
+
+					&:hover {
+						color: #fff;
+						transition: color 500ms;
+
+						&:before {
+							border: 2px solid #fff;
+							transition: border-color 500ms;
+						}
+					}
+				}
+
+				input[type="radio"]:checked + span.icon {
+					color: #fff;
+					transition: color 500ms;
+
+					&:before {
+						border: 2px solid #fff;
+						transition: border-color 500ms;
+					}
+				}
+			}
+
+			li {
+				a {
+					display: block;
+					position: relative;
+					padding: 24px 0 24px 18px;
+					font: normal 14px/1 'Montserrat', Arial, sans-serif;
+					text-decoration: none; 
+					letter-spacing: 1px;
+					color: #3f5f7a;
+					transition: color 250ms;
+
+					span {
+						position: relative;
+						z-index: 1;
+					}
+
+					&:before {
+						content: '';
+						position: absolute;
+						top: 10px; left: 0;
+						z-index: 0;
+						width: 38px;
+						height: 38px;
+						border: 2px solid #3f5f7a;
+						border-radius: 50%;
+						transition: border-color 250ms;
+					}
+
+					&:after {
+						content: '';
+						position: absolute;
+						top: 20px; left: 30px;
+						z-index: 0;
+						width: 24px;
+						height: 24px;
+						background: #1a2733;
+					}
+
+					&:hover,
+					&:focus {
+						color: #fff;
+						transition: color 500ms;
+
+						&:before {
+							border: 2px solid #fff;
+							transition: border-color 500ms;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.company-list {
+	float: left;
+	width: 350px;
+	background: #151f29;
+	border-left: 1px solid #10181f;
+
+	li {
+		position: relative;
+		display: block;
+		padding: 26px 20px;
+		border-bottom: 1px solid #202b35;
+		color: #fff;
+		text-decoration: none;
+		overflow: hidden;
+		cursor: pointer;
+		transition: background 250ms;
+
+		.icon {
+			float: left;
+			width: 54px;
+			height: 18px;
+			margin-right: 16px;
+			padding: 18px 0;
+			border: 2px solid #3f607c;
+			border-radius: 50%;
+			background: #10181f;
+			font-size: 0;
+			color: #3f607c;
+			text-align: center;
+
+			&:first-letter {
+				font: normal 16px/1 'Montserrat', Arial, sans-serif;
+			}
+		}
+
+		.content {
+			float: left;
+
+			.heading {
+				padding-bottom: 6px;
+				font: normal 18px/1 'Montserrat', Arial, sans-serif;
+			}
+
+			.subheading {
+				padding-bottom: 10px;
+				font: normal 12px/1 'Montserrat', Arial, sans-serif;
+				text-transform: uppercase;
+			}
+
+			p {
+				font-size: 12px;
+				line-height: 18px;
+			}
+		}
+
+		.status {
+			position: absolute;
+			top: 10px; right: 10px;
+			font: normal 12px/1 'Montserrat', Arial, sans-serif;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			color: #ffa302;
+		}
+
+		&:hover,
+		&:focus {
+			background: #10181f;
+			transition: background 500ms;
+		}
+	}
+
+	.new-company-form {
+		padding: 26px 0 60px;
+
+		h1 {
+			padding: 0 20px 24px;
+			font: normal 18px/1 'Montserrat', Arial, sans-serif;
+		}
+
+		label {
+			display: block;
+			padding: 0 20px 8px;
+			font: normal 11px/1 'Montserrat', Arial, sans-serif;
+			color: #3f5f7a;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.company-details {
+	float: left;
+	width: 480px;
+	background: #10181f;
+	border-left: 1px solid #202b35;
+
+	.header {
+		height: 124px;
+		background: #111519 url('assets/img/header_bg.jpg') no-repeat center;
+		background-size: cover;
+		border-bottom: 1px solid #202b35;
+
+		.logo {
+			margin: 38px 20px;
+		}
+	}
+
+	.content {
+		padding: 26px 20px;
+
+		h1 {
+			padding-bottom: 8px;
+			font: normal 22px/1 'Montserrat', Arial, sans-serif;
+		}
+
+		h2 {
+			padding-bottom: 40px;
+			font: normal 12px/1 'Montserrat', Arial, sans-serif;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+
+		h3 {
+			padding-bottom: 8px;
+			font: normal 11px/1 'Montserrat', Arial, sans-serif;
+			color: #3f5f7a;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+
+		p {
+			padding-bottom: 28px;
+		}
+
+		table {
+			width: 100%;
+
+			td {
+				width: 50%;
+			}
+		}
+	}
+}
+
+.debug {
+	float: left;
+	width: 200px;
+	height: 100%;
+	padding: 26px 20px;
+	border-left: 1px solid #202b35;
+	overflow-y: scroll;
+}
+
+
+

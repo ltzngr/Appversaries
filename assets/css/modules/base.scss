@@ -1,0 +1,49 @@
+/*------------------------------------*\
+    Fonts
+\*------------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Lora);
+
+
+/*------------------------------------*\
+    General
+\*------------------------------------*/
+
+html { 
+	height: 100%;
+}
+
+body {
+	min-width: 1060px;
+	height: 100%;
+	background: #151f29; 
+	font: 300 14px/22px 'Lora', Georgia, serif;
+	color: #ffffff;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/*------------------------------------*\
+    Typography
+\*------------------------------------*/
+
+strong { font-weight: bold; }
+em { font-style: italic; }
+u { text-decoration: underline; }
+
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+
+.text-uppercase { text-transform: uppercase; }
+
+
+/*------------------------------------*\
+    Forms
+\*------------------------------------*/
+
+@import "forms";
+
+*:focus { outline: 0; }
+

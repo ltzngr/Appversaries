@@ -1,0 +1,168 @@
+[
+	{
+		"company_name": "Leftronic",
+		"year_founded": "2010",
+		"focus_area": "Automation",
+		"location": "San Francisco, CA",
+		"funding": "$12 Million",
+		"services": ["Functionality"],
+		"industries": "Big Data Analytics",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero neque, posuere ut commodo eu, tristique vitae libero. Fusce porta nisi et turpis tempus dictum. Suspendisse ultricies tellus diam, a rutrum sem sodales eu.",
+		"size": "Small",
+		"status": ""
+	}, {
+		"company_name": "Flip Top",
+		"year_founded": "2011",
+		"focus_area": "Crowdsourcing",
+		"location": "San Francisco, CA",
+		"funding": "$8 Million",
+		"services": ["Usability"],
+		"industries": "Big Data Analytics",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero neque, posuere ut commodo eu, tristique vitae libero. Fusce porta nisi et turpis tempus dictum. Suspendisse ultricies tellus diam, a rutrum sem sodales eu.",
+		"size": "Medium",
+		"status": ""
+	}, {
+		"company_name": "Saygent",
+		"year_founded": "2011",
+		"focus_area": "Outsourcing",
+		"location": "San Francisco, CA",
+		"funding": "$14 Million",
+		"services": ["Load"],
+		"industries": "Big Data Analytics",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero neque, posuere ut commodo eu, tristique vitae libero. Fusce porta nisi et turpis tempus dictum. Suspendisse ultricies tellus diam, a rutrum sem sodales eu.",
+		"size": "Large",
+		"status": "New"
+	}, {
+		"company_name": "CrowdFlower",
+		"year_founded": "2013",
+		"focus_area": "Remote Testing",
+		"location": "San Francisco, CA",
+		"funding": "$32 Million",
+		"services": ["Localization"],
+		"industries": "Big Data Analytics",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero neque, posuere ut commodo eu, tristique vitae libero. Fusce porta nisi et turpis tempus dictum. Suspendisse ultricies tellus diam, a rutrum sem sodales eu.",
+		"size": "Small",
+		"status": ""
+	}, {
+		"company_name": "Lithium Technologies",
+		"year_founded": "2013",
+		"focus_area": "Tools",
+		"location": "San Francisco, CA",
+		"funding": "$22 Million",
+		"services": ["Security"],
+		"industries": "Big Data Analytics",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero neque, posuere ut commodo eu, tristique vitae libero. Fusce porta nisi et turpis tempus dictum. Suspendisse ultricies tellus diam, a rutrum sem sodales eu.",
+		"size": "Medium",
+		"status": ""
+	}, {
+		"company_name": "Euclid",
+		"year_founded": "2012",
+		"focus_area": "Automation",
+		"location": "Palo Alto, CA",
+		"funding": "$20 Million",
+		"services": ["Functionality"],
+		"industries": "Big Data Analytics",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero neque, posuere ut commodo eu, tristique vitae libero. Fusce porta nisi et turpis tempus dictum. Suspendisse ultricies tellus diam, a rutrum sem sodales eu.",
+		"size": "Large",
+		"status": ""
+	}, {
+		"company_name": "Crashlytics",
+		"year_founded": "2012",
+		"focus_area": "Crowdsourcing",
+		"location": "Cambridge, MA",
+		"funding": "$16 Million",
+		"services": ["Automation"],
+		"industries": "Big Data Analytics",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero neque, posuere ut commodo eu, tristique vitae libero. Fusce porta nisi et turpis tempus dictum. Suspendisse ultricies tellus diam, a rutrum sem sodales eu.",
+		"size": "Small",
+		"status": ""
+	}, {
+		"company_name": "Precog",
+		"year_founded": "2012",
+		"focus_area": "Outsourcing",
+		"location": "Boulder, CO",
+		"funding": "$9 Million",
+		"services": ["Load"],
+		"industries": "Big Data Analytics",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero neque, posuere ut commodo eu, tristique vitae libero. Fusce porta nisi et turpis tempus dictum. Suspendisse ultricies tellus diam, a rutrum sem sodales eu.",
+		"size": "Medium",
+		"status": "New"
+	}, {
+		"company_name": "LendUp",
+		"year_founded": "2012",
+		"focus_area": "Remote Testing",
+		"location": "San Francisco, CA",
+		"funding": "$17 Million",
+		"services": ["Localization"],
+		"industries": "Big Data Analytics",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero neque, posuere ut commodo eu, tristique vitae libero. Fusce porta nisi et turpis tempus dictum. Suspendisse ultricies tellus diam, a rutrum sem sodales eu.",
+		"size": "Large",
+		"status": ""
+	}, {
+		"company_name": "ElasticSearch",
+		"year_founded": "2013",
+		"focus_area": "Tools",
+		"location": "Los Altos, CA",
+		"funding": "$21 Million",
+		"services": ["Security"],
+		"industries": "Big Data Analytics",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero neque, posuere ut commodo eu, tristique vitae libero. Fusce porta nisi et turpis tempus dictum. Suspendisse ultricies tellus diam, a rutrum sem sodales eu.",
+		"size": "Small",
+		"status": ""
+	}, {
+		"company_name": "Torbit",
+		"year_founded": "2011",
+		"focus_area": "Automation",
+		"location": "San Mateo, CA",
+		"funding": "$28 Million",
+		"services": ["Functionality"],
+		"industries": "Big Data Analytics",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero neque, posuere ut commodo eu, tristique vitae libero. Fusce porta nisi et turpis tempus dictum. Suspendisse ultricies tellus diam, a rutrum sem sodales eu.",
+		"size": "Medium",
+		"status": "New"
+	}, {
+		"company_name": "Comprehend",
+		"year_founded": "2011",
+		"focus_area": "Crowdsourcing",
+		"location": "Palo Alto, CA",
+		"funding": "$30 Million",
+		"services": ["Usability"],
+		"industries": "Big Data Analytics",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero neque, posuere ut commodo eu, tristique vitae libero. Fusce porta nisi et turpis tempus dictum. Suspendisse ultricies tellus diam, a rutrum sem sodales eu.",
+		"size": "Large",
+		"status": ""
+	}, {
+		"company_name": "Apptimize",
+		"year_founded": "2013",
+		"focus_area": "Outsourcing",
+		"location": "Mountain View, CA",
+		"funding": "$12 Million",
+		"services": ["Load"],
+		"industries": "Big Data Analytics",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero neque, posuere ut commodo eu, tristique vitae libero. Fusce porta nisi et turpis tempus dictum. Suspendisse ultricies tellus diam, a rutrum sem sodales eu.",
+		"size": "Small",
+		"status": ""
+	}, {
+		"company_name": "Sociocast",
+		"year_founded": "2011",
+		"focus_area": "Remote Testing",
+		"location": "New York, NY",
+		"funding": "$15 Million",
+		"services": ["Localization"],
+		"industries": "Big Data Analytics",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero neque, posuere ut commodo eu, tristique vitae libero. Fusce porta nisi et turpis tempus dictum. Suspendisse ultricies tellus diam, a rutrum sem sodales eu.",
+		"size": "Medium",
+		"status": ""
+	}, {
+		"company_name": "Bottlenose",
+		"year_founded": "2011",
+		"focus_area": "Tools",
+		"location": "Los Angeles, CA",
+		"funding": "$8 Million",
+		"services": ["Security"],
+		"industries": "Big Data Analytics",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero neque, posuere ut commodo eu, tristique vitae libero. Fusce porta nisi et turpis tempus dictum. Suspendisse ultricies tellus diam, a rutrum sem sodales eu.",
+		"size": "Large",
+		"status": ""
+	}
+]

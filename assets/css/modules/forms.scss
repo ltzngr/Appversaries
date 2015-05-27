@@ -1,0 +1,86 @@
+form {
+
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	input[type="date"],
+	input[type="submit"],
+	input[type="search"],
+	textarea,
+	select {
+		display: inline-block;
+		vertical-align: top;
+		box-sizing: border-box;
+		width: 100%;
+		margin-bottom: 24px;
+		padding: 14px 20px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		background: #3f5f7a;
+		border: none;
+		border-radius: 0px;
+		font: normal 13px/1 'Lora', Georgia, serif;
+		color: #fff;
+	}
+
+	input[type="checkbox"] {
+		margin: 0 8px 0 18px;
+	}
+
+	select {
+		font-size: 0;
+	}
+
+	textarea {
+		height: 150px;
+		padding: 10px 12px;
+		resize: none;
+	}
+
+	input[type="submit"] {
+		display: inline-block;
+		width: auto;
+		padding: 16px 20px;
+		background: #fff;
+		border: none;
+		border-radius: 3px;
+		font: normal 13px/1 'Montserrat', Arial, sans-serif;
+		color: #10181f;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		cursor: pointer;
+
+		&:hover,
+		&:focus  {
+			background: #10181f;
+			color: #3f5f7a;
+			transition: background-color 250ms, color 250ms;
+		}
+	}
+
+	.button-container {
+		text-align: center;
+	}
+}
+
+*:focus {
+	outline: 0;
+}
+
+::-webkit-input-placeholder {
+   color: #ffffff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #ffffff;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #ffffff;  
+}
+
+:-ms-input-placeholder {  
+   color: #ffffff;  
+}
+
