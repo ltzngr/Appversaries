@@ -1,3 +1,3 @@
-# Website Boilerplate
-This is my personal boilerplate which is subject to change frequently.
+# Appversaries
+This is a one-page app built with AngularJS 
 
